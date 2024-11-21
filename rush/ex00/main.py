@@ -1,11 +1,15 @@
-from is_king_in_check import checkmate
-board = [
-    [".", ".", ".", ".", "."],
-    [".", ".", "Q", ".", "P"],
-    [".", ".", ".", "Q", "."],
-    [".", ".", ".", "K", "."],
-    [".", ".", ".", ".", "."]
-]
+from checkmate import checkmate
 
-# ทดสอบ
-print(is_king_in_check(board))  # Output: Success
+def main():
+    board = """\
+        ......
+        ......
+        ......
+        ......
+        ......
+        ......\
+    """
+    checkmate(board)
+
+if __name__ == "__main__":
+    main()

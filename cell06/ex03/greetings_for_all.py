@@ -11,4 +11,12 @@ if __name__ == "__main__":
   greetings("Wil")
   greetings()
   greetings(42)
-  #ยังไม่เสร็จ
+  
+
+""" คำสั่งที่ใช้ และผลลัพธ์
+ ./greetings_for_all.py | cat -e
+Hello, Alexandra.$
+Hello, Wil.$
+Hello, noble stranger.$
+Error! It was not a name.$
+"""
